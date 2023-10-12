@@ -1,0 +1,57 @@
+#header {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* login.page.encabezado */
+.centered-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+}
+
+/* login.page.formulario */
+#formulario {
+  padding: 100px;
+  padding-right: 580px;
+  padding-left: 580px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: greenyellow;
+}
+
+ion-item {
+margin-bottom: 20px;
+}
+
+/* boton  de Iniciar sesión*/
+ion-button[type="submit"] {
+--background: #000000;
+--color: aqua;
+--border-radius: 5px;
+--padding-start: 20px;
+--padding-end: 20px;
+--padding-top: 10px;
+--padding-bottom: 10px;
+}
+ion-button[type="submit"]:hover {
+--background: red;
+color: white;
+}
+
+/* boton  de Iniciar sesión*/
+.centered-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.centered-containers a{
+  padding-left: 100px;
+  padding-right: 100px;
+}
